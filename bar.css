@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: lightblue;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: 100px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    margin: 20px 30px;
+    display: inline-flex;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    font-family:'Playfair Display', serif;
+
+}
+nav ul a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.section1 {
+  background-image: url('Decor 1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 50px;
+  padding: 40px;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.section1 p {
+  margin-top: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.section2 {
+    padding: 40px;
+    background-color: white;
+    margin: 30px 50px;
+    display: inline-flex;
+    
+}
+.section2 img {
+    width: 500px;
+    height: auto;
+
+}
+.DecorText2 {
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+.section3 {
+    padding: 40px;
+    background-color: white;
+    margin: 30px 50px;
+    display: inline-flex;
+}
+.section3 img {
+    width: 500px;
+    height: auto;
+    padding: 0%;
+}
+.DecorText3 {
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+body{
+    background-color: #f4f4f4;
+}
