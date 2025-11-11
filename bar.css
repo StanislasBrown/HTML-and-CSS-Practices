@@ -49,9 +49,9 @@ nav ul a:hover {
   position: relative;
 }
 
-.section1 p {
+.section1 h2 {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,13 +82,18 @@ nav ul a:hover {
 .section3 {
     padding: 40px;
     background-color: white;
-    margin: 30px 50px;
-    display: inline-flex;
+    margin: 10px 50px;
+    display: flex;
+}
+.section3 ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    font-size: larger;
 }
 .section3 img {
     width: 500px;
     height: auto;
-    padding: 0%;
 }
 .DecorText3 {
     font-size: 24px;
@@ -99,3 +104,52 @@ nav ul a:hover {
 body{
     background-color: #f4f4f4;
 }
+.section4 {
+  background-image: url('Big\ Sofa.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 50px;
+  padding: 40px;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.DecorText4 {
+  margin-top: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pagefooter {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.Explore {
+   margin: 10px;
+   background-color: lightblue;
+   border: smooth;
+   border-radius: 5px;
+   color: black;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.Explore:hover {
+    background-color: blue;
+    color: white;
+}
+.DecorText4 a {
+    text-decoration: none;
+    color: white;
+}
+
