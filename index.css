@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body {
     background-color: #f3f3f3
 }
+
 header {
     background-color: #fff;
     padding: 20px;
@@ -19,29 +21,129 @@ header {
     display: flex;
     gap: 50px;
 }
+
 .navbar h4{
     color: darkgreen;
     font-weight: bold;
 }
+
 nav ul{
     display: flex;
     gap: 30px;
     list-style: none;
     align-items: center;
 } 
+
 nav a  {
     text-decoration: none;
     color: grey;
 }
+
+nav a:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+
 .navbutton {
     display : flex;
     gap: 20px;
     align-items: center;
 }
+
 .navbutton button {
     background-color: darkgreen;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.navbutton i:hover {
+    cursor: pointer;
+    color: darkgreen;
+} 
+
+.navbutton button:hover {
+    background-color: green;
+}
+
+.hero {
+    /* background-image: url('Decor 1.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('Decor 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    text-align: center;
+    color: white;
+    max-width: 60%;
+}
+.hero-text p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.hero-button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: green;
+}
+
+.About-section {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 90vh;
+    width: 100%;
+    justify-content: space-around;
+}
+.About-section .left {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.About-section .right {
+    height: 100%;
+    width: 50%;
+}
+
+.About-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Learn-More {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.contact{
+    border: 1px solid darkgreen;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    color: darkgreen;
+    background: transparent;
 }
