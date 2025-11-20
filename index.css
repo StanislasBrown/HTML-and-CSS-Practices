@@ -138,6 +138,10 @@ nav a:hover {
     cursor: pointer;
     margin-top: 20px;
 }
+
+.Learn-More:hover {
+    background-color: green;
+}
 .contact{
     border: 1px solid darkgreen;
     padding: 15px 30px;
@@ -146,4 +150,140 @@ nav a:hover {
     font-weight: semi-bold;
     color: darkgreen;
     background: transparent;
+}
+
+.Services-section {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 90vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Services-section .Services-img {
+    height: 100%;
+    width: 50%;
+}
+
+.Services-section .Services-text {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.Services-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Collections-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('Big Sofa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Collections-text {
+    text-align: center;
+    color: white;
+    max-width: 60%;
+}
+
+.Collections-text p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.Explore-Collections {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Explore-Collections:hover {
+    background-color: green;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.footer-division1 {
+    display: flex;
+    margin: 30px;
+    line-height: 1.5;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-division1 p{
+    color: grey;
+    font-size: 14px;
+}
+
+.footer-division2 {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-division2 p{
+    color: grey;
+    font-size: 14px;
+}
+.footer-sub-division6 {
+    display: flex;
+    gap: 15px;
+}
+.Subscribe-Button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Subscribe-Button:hover {
+    background-color: green;
+}
+.footer i:hover {
+    cursor: pointer;
+    color: darkgreen;
+}
+.footer ul  {
+    color: grey;
+    font-size: 14px;
+    list-style-type: none;
+}
+.footer ul a {
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 10px;
+}
+.footer ul a:hover {
+    color: darkgreen;
+    cursor: pointer;
 }
