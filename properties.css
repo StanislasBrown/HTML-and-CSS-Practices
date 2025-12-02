@@ -94,6 +94,9 @@ header {
     border-radius: 50px;
     margin-top: 20px;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
 .hero-search input {
@@ -115,8 +118,8 @@ header {
     padding-top: 4px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 100px;
-    display: inline;             
+    border-radius: 40px;
+    display: flex;             
     justify-content: center;   
     align-items: center; 
 }
